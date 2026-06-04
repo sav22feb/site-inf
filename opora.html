@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <link rel="stylesheet" href="styles.css">
+    
+    <button onclick="document.location='index.html'">
+    Главная
+</button>
+    
+      <img src="https://electricalschool.info/uploads/posts/2020-09/1600707758_5.jpg" 
+    width="1920"
+  height="5117"
+    />
+    
+  
+  <table border="0"  style="width: 50%; margin: 0 auto;">
+    <tbody>
+      <tr colspan="2">
+        <p style="text-align: center;">Вам понравилась эта опора?</p>
+      </tr>
+        <tr>
+            <td style="text-align: center;">
+              <button onclick="showyes()">Да</button>
+              <p id="yes" style="display:none;">:) <br> спасибо за ответ, мы рады что Вам понравилась эта опора.</p>
+<script>
+function showyes() {
+    document.getElementById("yes").style.display = "block";
+}
+</script>
+
+            </td>
+            <td style="text-align: center;">
+              <button onclick="showno()">Нет</button>
+                      <p id="no" style="display:none;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS70e1aa36NZDV8MsFmNIpeWfGGiqJ6WNKDRA&s" width="400" height="600">
+          <br>внезапный дед
+          </p>
+<script>
+function showno() {
+    document.getElementById("no").style.display = "block";
+}
+</script>
+            </td>
+                      
+            
+        </tr>
+
+
+    </tbody>
+</table>
+
+
+
+  </body>
+</html>
